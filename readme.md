@@ -1,4 +1,4 @@
-GOALS / SCOPE:
+## GOALS / SCOPE:
 - responsive design
 - display: grid;
 - JS modules
@@ -7,6 +7,6 @@ GOALS / SCOPE:
     - begin with local data
     - upgrade to requesting data from server
 
-OPTIONAL:
+## OPTIONAL:
 - create new post
 - messenger
