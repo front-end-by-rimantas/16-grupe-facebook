@@ -1,17 +1,21 @@
 import renderPost from './renderPost.js';
 
 function renderFeed( data ) {
+    const selector = '#feed';
+    // randame norima elementa
+    const DOM = document.querySelector(selector);
+
     // validation
 
     // logic
-    console.log('rendering feed...');
-
+    let HTML = '';
     const size = data.length;
     for ( let i=0; i<size; i++ ) {
-        renderPost( data[i] );
+        HTML += renderPost( data[i] );
     }
 
-    return;
+    // isstatome sugeneruota turini i jo vidu
+    return DOM.innerHTML = HTML;
 }
 
 export default renderFeed;

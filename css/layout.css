@@ -1,0 +1,39 @@
+body {
+    display: grid;
+    grid-template-columns: 200px 1fr 200px;
+    grid-template-areas:
+        "header header header"
+        "menu feed messenger"
+        "footer footer footer";
+}
+
+header {
+    padding: 10px;
+    grid-area: header;
+    background-color: #36f;
+    color: #fff;
+}
+
+.menu {
+    padding: 10px;
+    grid-area: menu;
+    background-color: #eee;
+}
+
+.feed {
+    padding: 40px;
+    grid-area: feed;
+}
+
+.messenger {
+    padding: 10px;
+    grid-area: messenger;
+    background-color: #ddd;
+}
+
+footer {
+    padding: 10px;
+    grid-area: footer;
+    background-color: #333;
+    color: #fff;
+}
