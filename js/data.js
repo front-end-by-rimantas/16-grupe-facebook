@@ -2,7 +2,7 @@
 Teksto apimtys:
 - mazai: 1-60
 - vidutiniskai: 61-300
-- daug: 301-1000
+- daug: 301-10000
 */
 
 

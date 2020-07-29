@@ -21,8 +21,10 @@ header {
 }
 
 .feed {
+    display: grid;
     padding: 40px;
     grid-area: feed;
+    gap: 40px;
 }
 
 .messenger {
