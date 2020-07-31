@@ -10,6 +10,7 @@ function renderPostText( text, background ) {
         let cutText = dictionary[0];
 
         for ( let i=1; i<dicSize; i++ ) {
+            // cia yra leidziama uzbaigti zodi, jog nebutu nukirpta jo viduryje
             if ( cutText.length < maxTextLength ) {
                 cutText += ' ' + dictionary[i];
             } else {

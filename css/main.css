@@ -91,7 +91,6 @@ img {
             }
         .post .gallery > .img::after {
             content: '+'attr(data-extra);
-            /* content: '+'; */
             display: none;
             align-items: center;
             justify-content: center;
