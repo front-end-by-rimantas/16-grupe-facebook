@@ -3,7 +3,7 @@ import renderPostGallery from './renderPostGallery.js';
 
 function renderPostContent( content ) {
     return `<div class="post-content">
-                ${ renderPostText(content.text) }
+                ${ renderPostText(content.text, content.background) }
                 ${ renderPostGallery(content.photos) }
             </div>`;
 }

@@ -51,6 +51,21 @@ img {
                 font-size: 28px;
                 line-height: 36px;
             }
+            .post > .post-content > p.background {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                height: 250px;
+                text-align: center;
+            }
+            .post > .post-content > p.red {
+                background-color: tomato;
+                color: #fff;
+            }
+            .post > .post-content > p.orange {
+                background-color: #f93;
+                color: #fff;
+            }
         .post > .post-content > .gallery {
             width: 100%;
             height: 300px;

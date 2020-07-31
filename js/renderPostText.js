@@ -1,9 +1,11 @@
-function renderPostText( text, background ) {
+function renderPostText( text, textBg ) {
     const shortTextLength = 60;
     const maxTextLength = 300;
 
+    console.log( textBg );
+
     if ( text.length <= shortTextLength ) {
-        return `<p class="big-text">${text}</p>`;
+        return `<p class="big-text ${textBg ? textBg + ' background' : ''}">${text}</p>`;
     } else
     if ( text.length <= maxTextLength ) {
         return `<p>${text}</p>`;
