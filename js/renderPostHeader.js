@@ -1,3 +1,5 @@
+import formatTime from './formatTime.js';
+
 function renderPostHeader( author, timestamp ) {
     return `<div class="post-header">
                 <a href="${author.link}" class="user-photo">
@@ -5,7 +7,7 @@ function renderPostHeader( author, timestamp ) {
                 </a>
                 <div class="user-details">
                     <a href="${author.link}">${author.name} ${author.lastname}</a>
-                    <div class="time">${timestamp} ago</div>
+                    <div class="time">${formatTime(timestamp)}</div>
                 </div>
                 <div class="actions">...</div>
             </div>`;
