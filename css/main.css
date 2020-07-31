@@ -47,6 +47,13 @@ img {
             font-size: 17px;
             line-height: 22px;
         }
+            .post > .post-content > p > .more {
+                color: #03c;
+                cursor: pointer;
+            }
+                .post > .post-content > p > .more:hover {
+                    text-decoration: underline;
+                }
             .post > .post-content > p.big-text {
                 font-size: 28px;
                 line-height: 36px;

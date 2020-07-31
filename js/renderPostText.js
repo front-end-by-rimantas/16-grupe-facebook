@@ -2,8 +2,6 @@ function renderPostText( text, textBg ) {
     const shortTextLength = 60;
     const maxTextLength = 300;
 
-    console.log( textBg );
-
     if ( text.length <= shortTextLength ) {
         return `<p class="big-text ${textBg ? textBg + ' background' : ''}">${text}</p>`;
     } else
@@ -24,7 +22,7 @@ function renderPostText( text, textBg ) {
             }
         }
 
-        return `<p>${cutText}... See more</p>`;
+        return `<p>${cutText}... <span class="more">See more</span></p>`;
     }
 }
 
