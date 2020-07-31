@@ -22,7 +22,7 @@ function renderPostText( text, textBg ) {
             }
         }
 
-        return `<p>${cutText}... <span class="more">See more</span></p>`;
+        return `<p data-full-text="${text}">${cutText}... <span class="more">See more</span></p>`;
     }
 }
 
