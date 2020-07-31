@@ -47,6 +47,10 @@ img {
             font-size: 17px;
             line-height: 22px;
         }
+            .post > .post-content > p.big-text {
+                font-size: 28px;
+                line-height: 36px;
+            }
         .post > .post-content > .gallery {
             width: 100%;
             height: 300px;
