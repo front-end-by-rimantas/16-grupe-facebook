@@ -1,7 +1,7 @@
 import renderPost from './renderPost.js';
 
 function renderFeed(data) {
-    const selector = '#feed';
+    const selector = '#feed > .btn';
     // randame norima elementa
     const DOM = document.querySelector(selector);
 
@@ -15,7 +15,7 @@ function renderFeed(data) {
     }
 
     // isstatome sugeneruota turini i jo vidu
-    return DOM.innerHTML = HTML;
+    return DOM.insertAdjacentHTML('beforebegin', HTML);
 }
 
 export default renderFeed;

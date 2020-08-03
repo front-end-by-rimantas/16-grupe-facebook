@@ -2,7 +2,7 @@
 import renderFeed from './renderFeed.js';
 import getMyData from './getMyData.js';
 
-getMyData('data/posts-2.json', renderFeed);
+getMyData('data/posts-1.json', renderFeed);
 
 // EVENT: see more
 const moreElements = document.querySelectorAll('.more');
@@ -16,3 +16,13 @@ function expandPostContent(event) {
 for (let i = 0; i < moreCount; i++) {
     moreElements[i].addEventListener('click', expandPostContent);
 }
+
+// LOAD MORE
+const btnLoadMore = document.querySelector('#feed > .btn');
+let packageIndex = 1;
+
+function loadMorePosts() {
+    getMyData(`data/posts-${++packageIndex}.json`, renderFeed);
+}
+
+btnLoadMore.addEventListener('click', loadMorePosts)
