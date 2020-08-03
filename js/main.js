@@ -2,13 +2,7 @@
 import renderFeed from './renderFeed.js';
 import getMyData from './getMyData.js';
 
-let posts = [];
-const newPosts = getMyData();
-// atsisiunciame duomenis -> posts + [...]
-
-posts = posts.concat(newPosts);
-
-renderFeed(posts);
+getMyData(renderFeed);
 
 // EVENT: see more
 const moreElements = document.querySelectorAll('.more');

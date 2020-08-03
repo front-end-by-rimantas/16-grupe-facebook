@@ -1,6 +1,6 @@
 import renderPost from './renderPost.js';
 
-function renderFeed( data ) {
+function renderFeed(data) {
     const selector = '#feed';
     // randame norima elementa
     const DOM = document.querySelector(selector);
@@ -10,8 +10,8 @@ function renderFeed( data ) {
     // logic
     let HTML = '';
     const size = data.length;
-    for ( let i=0; i<size; i++ ) {
-        HTML += renderPost( data[i] );
+    for (let i = 0; i < size; i++) {
+        HTML += renderPost(data[i]);
     }
 
     // isstatome sugeneruota turini i jo vidu

@@ -1,16 +1,15 @@
-function getMyData() {
-    return [{
-        author: {
-            photo: 'chuck-norris.jpg',
-            name: 'Chuck',
-            lastname: 'Norris',
-            link: 'chuck-norris'
-        },
-        postTimestamp: 1596210283527,             // miliseconds nuo 1970-01-01 00:00:00
-        content: {
-            text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, accusamus? Fuga debitis temporibus soluta iusto, commodi impedit consectetur maiores cupiditate eveniet repudiandae, asperiores laborum esse voluptatum itaque!'
+function getMyData(callback) {
+    const URL = 'https://front-end-by-rimantas.github.io/16-grupe-facebook/js/data.json';
+    const xmlhttp = new XMLHttpRequest();
+    xmlhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            const myData = JSON.parse(this.responseText);
+            callback(myData);
         }
-    }];
+    };
+
+    xmlhttp.open("GET", URL, true);
+    xmlhttp.send();
 }
 
 export default getMyData;
