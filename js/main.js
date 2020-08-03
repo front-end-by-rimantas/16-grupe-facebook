@@ -1,6 +1,12 @@
 "use strict";
-// import posts from './data.js';
 import renderFeed from './renderFeed.js';
+import getMyData from './getMyData.js';
+
+let posts = [];
+const newPosts = getMyData();
+// atsisiunciame duomenis -> posts + [...]
+
+posts = posts.concat(newPosts);
 
 renderFeed(posts);
 
