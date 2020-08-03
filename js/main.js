@@ -2,7 +2,7 @@
 import renderFeed from './renderFeed.js';
 import getMyData from './getMyData.js';
 
-getMyData(renderFeed);
+getMyData('data/posts-1.json', renderFeed);
 
 // EVENT: see more
 const moreElements = document.querySelectorAll('.more');

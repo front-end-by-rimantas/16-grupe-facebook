@@ -1,0 +1,50 @@
+[
+    {
+        "author": {
+            "photo": "jackie-chan.jpg",
+            "name": "Jackie",
+            "lastname": "Chan",
+            "link": "jackie-chan"
+        },
+        "postTimestamp": 1596198805222,
+        "content": {
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente nemo architecto. Alias, error ipsa?",
+            "photos": [
+                "photo1.jpg"
+            ]
+        }
+    },
+    {
+        "author": {
+            "photo": "bruce-lee.jpg",
+            "name": "Bruce",
+            "lastname": "Lee",
+            "link": "bruce-lee"
+        },
+        "postTimestamp": 1596098805222,
+        "content": {
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente nemo architecto. Alias, error ipsa?",
+            "photos": [
+                "photo1.jpg",
+                "photo2.jpg"
+            ]
+        }
+    },
+    {
+        "author": {
+            "photo": "bruce-willis.jpg",
+            "name": "Bruce",
+            "lastname": "Willis",
+            "link": "bruce-willis"
+        },
+        "postTimestamp": 1595098805222,
+        "content": {
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente nemo architecto. Alias, error ipsa?",
+            "photos": [
+                "photo1.jpg",
+                "photo2.jpg",
+                "photo3.jpg"
+            ]
+        }
+    }
+]

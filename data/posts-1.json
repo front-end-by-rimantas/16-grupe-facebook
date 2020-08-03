@@ -1,0 +1,26 @@
+[
+    {
+        "author": {
+            "photo": "chuck-norris.jpg",
+            "name": "Chuck",
+            "lastname": "Norris",
+            "link": "chuck-norris"
+        },
+        "postTimestamp": 1596210283527,
+        "content": {
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia, accusamus? Fuga debitis temporibus soluta iusto, commodi impedit consectetur maiores cupiditate eveniet repudiandae, asperiores laborum esse voluptatum itaque!"
+        }
+    },
+    {
+        "author": {
+            "photo": "algimantas-cekuolis.jpg",
+            "name": "Algimantas",
+            "lastname": "Čekuolis",
+            "link": "algimantas-cekuolis"
+        },
+        "postTimestamp": 1596210232432,
+        "content": {
+            "text": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui sapiente nemo architecto. Alias, error ipsa? Fugiat sit eum amet excepturi voluptatem, pariatur tempore iure? Suscipit illo unde quaerat sequi aperiam, exercitationem modi mollitia accusamus minima ea cumque eum sed voluptates tenetur dolor eos totam distinctio quisquam sit."
+        }
+    }
+]
